@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+ }
+
+main{
+    overflow: auto;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+nav{
+    background-color: #6f6f6f;
+    padding: 5px;
+}
+
+nav>h1{
+    font-size: 2em;
+    text-align: center;
+    color: aliceblue;
+}
+
+nav>p{
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+}
+
+.dropbutton{
+    background-color: #6f6f6f;
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdown-menu{
+    display: none;
+    margin: auto;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    display: block;
+    padding: 14px 18px
+}
+
+.open{
+    display:block;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.card{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.about{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+}
+
+.about>h3{
+    text-align: center;
+}
+
+.hobby{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-item{
+    margin: 5px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+.hobby-item img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.interests-item{
+    margin: 5px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    flex-grow: 1
+}
+
+.interests-item img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+
+.details>p{
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+aside {
+    display: flex;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.Name{
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+
+.bday{
+    text-align: center;
+}
+
+.clarence{
+    max-height: 500px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #6f6f6f;
+    padding: 5px;
+}
+
+footer>p{
+    font-size: 1em;
+    text-align: center;
+    color:aliceblue;
+}
